@@ -21,6 +21,7 @@
 	 </style>
 	 
 	 <p id="p1">Merhaba Abdullah!</p>
+         <p>Merhaba dostum!</p>
 	 <p id="p2">Merhaba Mehmet</p>
 	 <p  class="p3">Merhaba Muhammet;)</p>
 	 

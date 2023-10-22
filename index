@@ -1,0 +1,49 @@
+<html>
+ <head>
+	 
+ </head>
+	 <body>
+	 
+	 <style>
+	 
+	    #p1{
+	       color:red;
+	    }
+	    
+	    #p2{
+	       font-size:50px;
+	    }
+	    
+	    .p3{
+	       color:green;
+	    }
+	 
+	 </style>
+	 
+	 <p id="p1">Merhaba Abdullah!</p>
+	 <p id="p2">Merhaba Mehmet</p>
+	 <p  class="p3">Merhaba Muhammet;)</p>
+	 
+	 <input type="text"  id="inputName"></input>
+	 <button id="controlButton" onclick="controlFunction()">Kontrol Et</button>
+	 
+	 
+	 
+	 <script>
+	 
+	 
+	 function controlFunction(){
+	 		if(document.getElementById("inputName").value=="Abdullah"){
+	 		   alert("Onaylandi")
+	 		}else{
+	 			 alert("Gecersiz!")
+	 		}
+	 }
+	 		
+	 		
+	 </script>
+	 
+	 
+	
+	 </body>
+ </html>
